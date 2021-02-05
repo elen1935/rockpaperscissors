@@ -25,7 +25,7 @@ h1 {
   --rot: -1;
 }
 
-.player {
+/*.player {
   transform: scale(var(--rot), 1);
   width: 40vw;
   height: 40vw;
@@ -43,6 +43,60 @@ h1 {
 
 .player.scissors {
   background-image: url(hand_scissors.png);
+}*/
+
+#player1-rock {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_rock.png);
+  background-repeat: no-repeat;
+}
+
+#player1-paper {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_paper.png);
+  background-repeat: no-repeat;
+}
+
+#player1-scissors {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_scissors.png);
+  background-repeat: no-repeat;
+}
+
+#player2-rock {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_rock.png);
+  background-repeat: no-repeat;
+}
+
+#player2-paper {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_paper.png);
+  background-repeat: no-repeat;
+}
+
+#player2-scissors {
+  transform: scale(var(--rot), 1);
+  width: 40vw;
+  height: 40vw;
+  background-size: 100%;
+  background-image: url(hand_scissors.png);
+  background-repeat: no-repeat;
 }
 
 .player.shake {

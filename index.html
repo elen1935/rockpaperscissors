@@ -12,8 +12,37 @@
   <h1>Rock, Paper, Scissors</h1>
 
   <div id="gamefield">
+    <!--
     <div id="player1" class="player"></div>
     <div id="player2" class="player"></div>
+    -->
+
+    <!--
+    <div id="player1">
+        <div id="player1-rock"></div>
+        <div id="player1-paper" class="hidden"></div>
+        <div id="player1-scissors" class="hidden"></div>
+    </div>
+
+    <div id="player2">
+      <div id="player2-rock"></div>
+      <div id="player2-paper" class="hidden"></div>
+      <div id="player2-scissors" class="hidden"></div>
+    </div>
+    -->
+
+    <div id="player1">
+      <div id="player1-rock"></div>
+      <div id="player1-paper"></div>
+      <div id="player1-scissors" class="hidden"></div>
+    </div>
+
+    <div id="player2">
+      <div id="player2-rock"></div>
+      <div id="player2-paper"></div>
+      <div id="player2-scissors"></div>
+    </div>
+
     <div id="texts">
       <div id="lose" class="hidden"><h1>
         You lose
@@ -27,11 +56,20 @@
     </div>
   </div>
 
+  <!--
   <div id="buttons">
     <button class="rock" type="button" onclick="userClicksRock()"></button>
     <button class="paper" type="button" onclick="userClicksPaper()"></button>
     <button class="scissors" type="button" onclick="userClicksScissors()"></button>
   </div>
+  -->
+
+  <div id="buttons">
+    <button class="rock"></button>
+    <button class="paper"></button>
+    <button class="scissors"></button>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
